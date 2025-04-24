@@ -1,0 +1,28 @@
+.form-container {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.form-container form input {
+  outline: none;
+}
+.form-container form button {
+  margin-top: 10px;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-toggle {
+  color: blue;
+  cursor: pointer;
+}
