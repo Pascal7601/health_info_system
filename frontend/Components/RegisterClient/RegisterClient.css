@@ -1,0 +1,32 @@
+.client-menu {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  z-index: 100;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.client-menu button {
+  width: 50%;
+  margin-top: 10px;
+  align-self: center;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.client-menu .menu-submit {
+  background-color: green;
+}
+.client-menu .menu-cancel {
+  background-color: red;
+}
+.client-menu input {
+  outline: none;
+}

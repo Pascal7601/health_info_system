@@ -1,0 +1,62 @@
+.navbar {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.navbar p {
+  font-size: larger;
+  align-self: center;
+  font-weight: 600;
+  color: white;
+}
+.health-head {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.health-head p, .reg-clients p {
+  font-weight: 500;
+  font-size: large;
+}
+.health-head button, .reg-clients button {
+  background-color: green;
+  border: none;
+  color: white;
+  height: 35px;
+  align-self: center;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.reg-clients {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.health-info {
+  padding: 10px;
+}
+.health-info input {
+  outline: none;
+  border: none;
+}
+.search-container {
+  border: 1px solid gray;
+  width: 200px;
+  padding: 2px 3px;
+  margin-bottom: 20px;
+}
+.search-icon {
+  font-size: large;
+  cursor: pointer;
+}
+.health-pg {
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline;
+}
+.client {
+  text-decoration: underline;
+  cursor: pointer;
+}

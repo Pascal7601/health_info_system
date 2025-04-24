@@ -5,7 +5,7 @@ function SignIn() {
   const [formMode, setFormMode] = useState('Sign In');
 
   const toggleForm = () => {
-    setFormMode(prev => prev == 'Sign In' ? 'Sign Up' : 'Sign In')
+    setFormMode(prev => prev == 'Sign In' ? 'Sign Up' : 'Sign In'); // toggle between sign in and sign up
   }
 
   return (
