@@ -3,4 +3,4 @@
 [Click here to view the live site](https://health-info-system-omega.vercel.app/)
 
 ### Home Page
-![Home Screenshot](public/assets/home.png)
+![Home Screenshot](frontend/public/assets/home.png)
