@@ -3,7 +3,7 @@ import './SignIn.css'
 import { toast } from 'react-toastify'
 import { useNavigate } from 'react-router-dom'
 
-const API = 'http://localhost:8000/'
+const API = 'https://health-info-system-ywmt.onrender.com/'
 
 function SignIn() {
   const [formMode, setFormMode] = useState('Sign Up');

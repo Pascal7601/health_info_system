@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './RegisterClient.css'
 import { toast } from 'react-toastify';
 
-const API = 'http://localhost:8000/';
+const API = 'https://health-info-system-ywmt.onrender.com/';
 
 function RegisterClient({showClientMenu, setShowClientMenu}) {
   const [name, setName] = useState('');

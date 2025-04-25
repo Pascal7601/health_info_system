@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './EnrollClient.css'
 import { toast } from 'react-toastify';
 
-const API = 'http://localhost:8000';
+const API = 'https://health-info-system-ywmt.onrender.com';
 
 function EnrollClient({ showEnrollMenu, setShowEnrollMenu, programId}) {
   const [name, setName] = useState('');

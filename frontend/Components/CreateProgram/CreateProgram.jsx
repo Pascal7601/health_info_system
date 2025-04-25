@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './CreateProgram.css'
 import { toast } from 'react-toastify';
 
-const API = 'http://localhost:8000/';
+const API = 'https://health-info-system-ywmt.onrender.com/';
 
 function CreateProgram({ showMenu, setShowMenu }) {
   const [name, setName] = useState('');

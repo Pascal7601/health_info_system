@@ -7,7 +7,7 @@ import EnrollClient from '../../Components/EnrollClient/EnrollClient';
 import ClientProfile from '../../Components/ClientProfile/ClientProfile';
 import { toast } from 'react-toastify'
 
-const API = 'http://localhost:8000';
+const API = 'https://health-info-system-ywmt.onrender.com';
 
 function Home() {
   const [showMenu, setShowMenu] = useState(false);
