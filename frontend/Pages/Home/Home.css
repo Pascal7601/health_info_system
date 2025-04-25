@@ -54,7 +54,7 @@
 .health-pg {
   text-decoration: underline;
   cursor: pointer;
-  display: inline;
+  display: block;
 }
 .client {
   text-decoration: underline;

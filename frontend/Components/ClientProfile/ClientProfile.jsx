@@ -1,14 +1,23 @@
 import './ClientProfile.css'
 
-function ClientProfile({showClientProfile, setShowClientProfile}) {
+function ClientProfile({showClientProfile, setShowClientProfile, client, enrolledPrograms}) {
   return (
     <>
       { showClientProfile &&
         <div className='client-profile'>
-          <p>Pascal Ndubi</p>
-          <p>ndubi@gmail.com</p>
-          <p>Admitted on 24th April 2025</p>
-          <p>Enrolled in TB program</p>
+          <p>{client.name}</p>
+          <p>Admitted on {new Date(client.created_at).toLocaleDateString()}</p>
+
+          <div>
+            {enrolledPrograms.length > 0 ? (
+              enrolledPrograms.map(program => (
+                <p key={program.id}>Enrolled in {program.name}</p>
+              ))
+            ) : (
+              <p>No programs enrolled</p>
+            )}
+          </div>
+
           <button onClick={() => setShowClientProfile(false)}>Cancel</button>
         </div>
       }
