@@ -1,1 +1,6 @@
-# health_info_system
+# HEALTH INFORMATION SYSTEM
+## live site
+[Click here to view the live site](https://health-info-system-omega.vercel.app/)
+
+### Home Page
+![Home Screenshot](public/assets/home.png)
